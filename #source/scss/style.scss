@@ -1,11 +1,9 @@
 
-// Отступ секции с низу и с верху 80пх
-
 
 $top-color: #FFA62B;
 $secondary-color: #00A0C1;
-$top-font-text: #737373;
-$top-font-title: #252B42;
+$top-color-text: #737373;
+$top-color-title: #252B42;
 
 html {
     box-sizing: border-box;
@@ -42,7 +40,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    color: $top-font-text;
+    color: $top-color-text;
     background: #FAFAFA;
 }
 
@@ -52,7 +50,7 @@ body {
     line-height: 57px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: $top-font-title;
+    color: $top-color-title;
     text-align: center;
 }
 .page-subtitle{
@@ -87,7 +85,7 @@ body {
         margin: 0 10px;
     }
     &__item-link{
-        color: $top-font-text;
+        color: $top-color-text;
         transition: all .3s;
     }
     &__item-link:hover{
@@ -127,7 +125,7 @@ body {
         font-size: 20px;
         line-height: 30px;
         font-weight: 500;
-        color: $top-font-text;
+        color: $top-color-text;
         margin-bottom: 35px;
         max-width: 375px;
     }
@@ -178,7 +176,7 @@ body {
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
-    color: $top-font-title;
+    color: $top-color-title;
     margin-bottom: 10px;
     transition: all .3s;
 }
@@ -234,7 +232,7 @@ body {
     font-size: 40px;
     line-height: 57px;
     font-weight: 700;
-    color: $top-font-title;
+    color: $top-color-title;
     margin-bottom: 10px;
 }
 .achievements__item-text{
@@ -265,7 +263,7 @@ body {
     &__item-title{
         font-size: 16px;
         line-height: 24px;
-        color: $top-font-title;
+        color: $top-color-title;
         font-weight: 700;
         margin-bottom: 15px;
         padding: 30px 30px 0 30px;
@@ -310,7 +308,7 @@ body {
         font-size: 40px;
         line-height: 57px;
         font-weight: 700;
-        color: $top-font-title;
+        color: $top-color-title;
         margin: 20px 0 10px 0;
     }
     &__subtitle{
@@ -324,7 +322,7 @@ body {
         font-size: 16px;
         line-height: 24px;
         font-weight: 700;
-        color: $top-font-title;
+        color: $top-color-title;
         margin: 0 0 5px 55px;
     }
     &__item-text{
@@ -418,7 +416,7 @@ body {
     display: block;
     height: 75px;
     width: 100%;
-    background: $top-font-title;
+    background: $top-color-title;
 }
 
 // ------------------  CONTACT
@@ -450,12 +448,12 @@ body {
         color: $secondary-color;
     }
     &__item-link{
-        color: $top-font-title;
+        color: $top-color-title;
         font-weight: 600;
     }
     &__item-title{
         font-weight: 700;
-        color: $top-font-title;
+        color: $top-color-title;
     }
     &__item-btn{
         color: $top-color;
@@ -469,7 +467,7 @@ body {
 .contact__item:hover{
     width: 330px;
     height: 390px;
-    background-color: $top-font-title;
+    background-color: $top-color-title;
     padding: 80px 40px;
     margin-top: 70px;
 }
@@ -499,7 +497,7 @@ body {
         font-size: 24px;
         line-height: 32px;
         font-weight: 700;
-        color: $top-font-title; 
+        color: $top-color-title; 
         margin-bottom: 10px; 
     }
     &__btn{
@@ -884,7 +882,7 @@ body {
     }
     .menu__item-link{
         font-weight: 400;
-        color: $top-font-text;
+        color: $top-color-text;
         line-height: 45px;
     }
     .body--active {
@@ -910,7 +908,6 @@ body {
     .clients__form-link{
         margin: 10px 0;
     }
-
 }
 
 @media (max-width: 420px){

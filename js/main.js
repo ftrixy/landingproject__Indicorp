@@ -1,23 +1,5 @@
 
-// $(document).ready(function() {
-//     $('.header__burger').click(function(event) {
-//         $('.header__burger,.header__menu').toogleClass('active');
-        // $('body').toogleClass('lock');
-//     });
-
-// });
-
-
 $(function(){
-
-//     $('.gallery__slider').slick({
-//         autoplay: true,
-//         arrows: false,
-//         dots: true,
-//         fade: true,
-//         pauseOnHover: true,
-
-//     });
 
     $('.header__btn').on('click', function(){
         $('.menu').toggleClass('menu--active');
